@@ -59,7 +59,7 @@ class MaxDiameter:
     
     # 遍历二叉树
     # 函数定义：输入根节点，返回当前节点二叉树的最大直径（左右子树的最大深度之和）
-    def traverse(self) -> None:
+    def traverse(self, root:TreeNode) -> None:
         # 边界条件
         if not root:
             return
